@@ -4,11 +4,11 @@ public class Human extends Animal implements Thinkable {
 
     private String hobby;
     
-    public Human(String name,int age,String hobby) {
-    super.setName(name);
-    super.setAge(age);
-    this.hobby = hobby;
+
     
+    public Human(String name,int age,String hobby) {
+        super(name, age);
+        this.hobby = hobby;
     }
     
     public void think() {
